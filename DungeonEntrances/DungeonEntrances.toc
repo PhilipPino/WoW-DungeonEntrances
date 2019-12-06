@@ -1,0 +1,7 @@
+## Title: Dungeon Entrances
+## Notes: Adds missing Dungeon Entrances Data to support older expansions.
+## Author: Philip Kretzschmar (Pino)
+## Version: 0.7
+## Interface: 80205
+
+DungeonEntrances.lua
