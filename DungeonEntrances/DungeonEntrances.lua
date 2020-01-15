@@ -1,60 +1,60 @@
 C_EncounterJournal.GetDungeonEntrancesForMapOriginal = C_EncounterJournal.GetDungeonEntrancesForMap;
-C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
-	if ... == 10 then
+C_EncounterJournal.GetDungeonEntrancesForMap = function(uiMapID)
+	if uiMapID == 10 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(240),
-				position=CreateVector2D(0.38872060201324, 0.6881157232851),
+				position=CreateVector2D(0.388720, 0.688115),
 				description="Dungeon",
 				journalInstanceID=240
 			}
 		};
 	end
-	if ... == 11 then
+	if uiMapID == 11 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(240),
-				position=CreateVector2D(0.54814769619514, 0.66922540892497),
+				position=CreateVector2D(0.548147, 0.669225),
 				description="Dungeon",
 				journalInstanceID=240
 			}
 		};
 	end
-	if ... == 15 then
+	if uiMapID == 15 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(239),
-				position=CreateVector2D(0.41657998997691, 0.11522516067663),
+				position=CreateVector2D(0.416579, 0.115225),
 				description="Dungeon",
 				journalInstanceID=239
 			}
 		};
 	end
-	if ... == 16 then
+	if uiMapID == 16 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(239),
-				position=CreateVector2D(0.36789261899509, 0.28203233331911),
+				position=CreateVector2D(0.367892, 0.282032),
 				description="Dungeon",
 				journalInstanceID=239
 			}
 		};
 	end
-	if ... == 18 then
+	if uiMapID == 18 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(316),
-				position=CreateVector2D(0.82033508666462, 0.32888866761046),
+				position=CreateVector2D(0.820335, 0.328888),
 				description="Dungeon",
 				journalInstanceID=316
 			},
@@ -62,19 +62,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(311),
-				position=CreateVector2D(0.83033508666462, 0.32888866761046),
+				position=CreateVector2D(0.830335, 0.328888),
 				description="Dungeon",
 				journalInstanceID=311
 			}
 		};
 	end
-	if ... == 19 then
+	if uiMapID == 19 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(316),
-				position=CreateVector2D(0.68260866202026, 0.21085646122064),
+				position=CreateVector2D(0.682608, 0.210856),
 				description="Dungeon",
 				journalInstanceID=316
 			},
@@ -82,67 +82,67 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(311),
-				position=CreateVector2D(0.79241858850245, 0.60276284653301),
+				position=CreateVector2D(0.792418, 0.602762),
 				description="Dungeon",
 				journalInstanceID=311
 			}
 		};
 	end
-	if ... == 21 then
+	if uiMapID == 21 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(64),
-				position=CreateVector2D(0.44750395608171, 0.6776284661079),
+				position=CreateVector2D(0.447503, 0.677628),
 				description="Dungeon",
 				journalInstanceID=64
 			}
 		};
 	end
-	if ... == 22 then
+	if uiMapID == 22 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(246),
-				position=CreateVector2D(0.69624916752725, 0.7316318500132),
+				position=CreateVector2D(0.696249, 0.731631),
 				description="Dungeon",
 				journalInstanceID=246
 			}
 		};
 	end
-	if ... == 23 then
+	if uiMapID == 23 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(236),
-				position=CreateVector2D(0.27023697138323, 0.11665483609084),
+				position=CreateVector2D(0.270236, 0.116654),
 				description="Dungeon",
 				journalInstanceID=236
 			}
 		};
 	end
-	if ... == 27 then
+	if uiMapID == 27 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(231),
-				position=CreateVector2D(0.30460939390224, 0.37310644471051),
+				position=CreateVector2D(0.304609, 0.373106),
 				description="Dungeon",
 				journalInstanceID=231
 			}
 		};
 	end
-	if ... == 30 then
+	if uiMapID == 30 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(231),
-				position=CreateVector2D(0.42468825722735, 0.12771681828921),
+				position=CreateVector2D(0.424688, 0.127716),
 				description="Dungeon",
 				journalInstanceID=231
 			},
@@ -150,31 +150,31 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(231),
-				position=CreateVector2D(0.29500879697143, 0.74720080919110),
+				position=CreateVector2D(0.295008, 0.747200),
 				description="Dungeon",
 				journalInstanceID=231
 			}
 		};
 	end
-	if ... == 32 then
+	if uiMapID == 32 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(228),
-				position=CreateVector2D(0.35337515361115, 0.8401023165228),
+				position=CreateVector2D(0.353375, 0.840102),
 				description="Dungeon",
 				journalInstanceID=228
 			}
 		};
 	end
-	if ... == 33 then
+	if uiMapID == 33 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(742),
-				position=CreateVector2D(0.64047594208997, 0.71503138631366),
+				position=CreateVector2D(0.640475, 0.715031),
 				description=RAID,
 				journalInstanceID=742
 			},
@@ -182,7 +182,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(559),
-				position=CreateVector2D(0.79002209141308, 0.33284371898051),
+				position=CreateVector2D(0.790022, 0.332843),
 				description="Dungeon",
 				journalInstanceID=559
 			},
@@ -190,7 +190,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(229),
-				position=CreateVector2D(0.8168566107838, 0.43462956771599),
+				position=CreateVector2D(0.816856,0.4346295),
 				description="Dungeon",
 				journalInstanceID=229
 			},
@@ -198,7 +198,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(66),
-				position=CreateVector2D(0.69883131500329, 0.6386253781719),
+				position=CreateVector2D(0.698831, 0.638625),
 				description="Dungeon",
 				journalInstanceID=66
 			},
@@ -206,7 +206,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(741),
-				position=CreateVector2D(0.4230671824123, 0.43863945550456),
+				position=CreateVector2D(0.423067, 0.438639),
 				description=RAID,
 				journalInstanceID=741
 			},
@@ -214,31 +214,31 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(228),
-				position=CreateVector2D(0.43681190040339, 0.42208932666782),
+				position=CreateVector2D(0.436811, 0.422089),
 				description="Dungeon",
 				journalInstanceID=228
 			}
 		};
 	end
-	if ... == 34 then
+	if uiMapID == 34 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(66),
-				position=CreateVector2D(0.74342901966899, 0.52660171306868),
+				position=CreateVector2D(0.743429, 0.526601),
 				description="Dungeon",
 				journalInstanceID=66
 			}
 		};
 	end
-	if ... == 35 then
+	if uiMapID == 35 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(741),
-				position=CreateVector2D(0.5373923882295, 0.81375955185424),
+				position=CreateVector2D(0.537392, 0.813759),
 				description=RAID,
 				journalInstanceID=741
 			},
@@ -246,19 +246,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(228),
-				position=CreateVector2D(0.39268059369189, 0.18001044494513),
+				position=CreateVector2D(0.392680, 0.180010),
 				description="Dungeon",
 				journalInstanceID=228
 			}
 		};
 	end
-	if ... == 36 then
+	if uiMapID == 36 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(66),
-				position=CreateVector2D(0.17980000000000, 0.36000000000000),
+				position=CreateVector2D(0.179800, 0.360000),
 				description="Dungeon",
 				journalInstanceID=66
 			},
@@ -266,7 +266,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(742),
-				position=CreateVector2D(0.19280000000000, 0.32980000000000),
+				position=CreateVector2D(0.192800, 0.329800),
 				description=RAID,
 				journalInstanceID=742
 			},
@@ -274,7 +274,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(559),
-				position=CreateVector2D(0.20580000000000, 0.36000000000000),
+				position=CreateVector2D(0.205800, 0.360000),
 				description="Dungeon",
 				journalInstanceID=559
 			},
@@ -282,7 +282,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(741),
-				position=CreateVector2D(0.21880000000000, 0.32980000000000),
+				position=CreateVector2D(0.218800, 0.329800),
 				description=RAID,
 				journalInstanceID=741
 			},
@@ -290,19 +290,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(229),
-				position=CreateVector2D(0.23180000000000, 0.36000000000000),
+				position=CreateVector2D(0.231800, 0.360000),
 				description="Dungeon",
 				journalInstanceID=229
 			}
 		};
 	end
-	if ... == 42 then
+	if uiMapID == 42 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(745),
-				position=CreateVector2D(0.46848303678764, 0.74671328595412),
+				position=CreateVector2D(0.468483, 0.746713),
 				description=RAID,
 				journalInstanceID=745
 			},
@@ -310,139 +310,139 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(860),
-				position=CreateVector2D(0.46670781113138, 0.70243159124884),
+				position=CreateVector2D(0.466707, 0.702431),
 				description="Dungeon",
 				journalInstanceID=860
 			}
 		};
 	end
-	if ... == 50 then
+	if uiMapID == 50 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(76),
-				position=CreateVector2D(0.72186430812715, 0.32847660889257),
+				position=CreateVector2D(0.721864, 0.328476),
 				description="Dungeon",
 				journalInstanceID=63
 			}
 		};
 	end
-	if ... == 51 then
+	if uiMapID == 51 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(237),
-				position=CreateVector2D(0.69626549025109, 0.53437244306965),
+				position=CreateVector2D(0.696265, 0.534372),
 				description="Dungeon",
 				journalInstanceID=237
 			}
 		};
 	end
-	if ... == 52 then
+	if uiMapID == 52 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(63),
-				position=CreateVector2D(0.42566122837107, 0.71559689999562),
+				position=CreateVector2D(0.425661, 0.715596),
 				description="Dungeon",
 				journalInstanceID=63
 			}
 		};
 	end
-	if ... == 55 then
+	if uiMapID == 55 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(63),
-				position=CreateVector2D(0.25017088061064, 0.50906806021341),
+				position=CreateVector2D(0.250170, 0.509068),
 				description="Dungeon",
 				journalInstanceID=63
 			}
 		};
 	end
-	if ... == 63 then
+	if uiMapID == 63 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(227),
-				position=CreateVector2D(0.14136236969572, 0.13838059890756),
+				position=CreateVector2D(0.141362, 0.138380),
 				description="Dungeon",
 				journalInstanceID=227
 			}
 		};
 	end
-	if ... == 64 then
+	if uiMapID == 64 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(233),
-				position=CreateVector2D(0.47257521724171, 0.23386695972682),
+				position=CreateVector2D(0.472575, 0.233866),
 				description="Dungeon",
 				journalInstanceID=233
 			}
 		};
 	end
-	if ... == 66 then
+	if uiMapID == 66 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(232),
-				position=CreateVector2D(0.29414487900869, 0.62465898161598),
+				position=CreateVector2D(0.294144, 0.624658),
 				description="Dungeon",
 				journalInstanceID=232
 			}
 		};
 	end
-	if ... == 67 then
+	if uiMapID == 67 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(232),
-				position=CreateVector2D(0.78840886864139, 0.63015836295693),
+				position=CreateVector2D(0.788408, 0.630158),
 				description="Dungeon",
 				journalInstanceID=232
 			}
 		};
 	end
-	if ... == 69 then
+	if uiMapID == 69 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(230),
-				position=CreateVector2D(0.59697869759001, 0.41704298205647),
+				position=CreateVector2D(0.596978, 0.417042),
 				description="Dungeon",
 				journalInstanceID=230
 			}
 		};
 	end
-	if ... == 70 then
+	if uiMapID == 70 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(760),
-				position=CreateVector2D(0.52589707527099, 0.76802815446594),
+				position=CreateVector2D(0.525897, 0.768028),
 				description=RAID,
 				journalInstanceID=760
 			}
 		};
 	end
-	if ... == 71 then
+	if uiMapID == 71 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(241),
-				position=CreateVector2D(0.39198627006554, 0.21123040212751),
+				position=CreateVector2D(0.391986, 0.211230),
 				description="Dungeon",
 				journalInstanceID=241
 			},
@@ -450,7 +450,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(186),
-				position=CreateVector2D(0.61000000000000, 0.50000000000000),
+				position=CreateVector2D(0.610000, 0.500000),
 				description="Dungeon",
 				journalInstanceID=186
 			},
@@ -458,7 +458,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(184),
-				position=CreateVector2D(0.62000000000000, 0.47500000000000),
+				position=CreateVector2D(0.620000, 0.475000),
 				description="Dungeon",
 				journalInstanceID=184
 			},
@@ -466,7 +466,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(251),
-				position=CreateVector2D(0.63000000000000, 0.50000000000000),
+				position=CreateVector2D(0.630000, 0.500000),
 				description="Dungeon",
 				journalInstanceID=251
 			},
@@ -474,7 +474,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(185),
-				position=CreateVector2D(0.64000000000000, 0.47500000000000),
+				position=CreateVector2D(0.640000, 0.475000),
 				description="Dungeon",
 				journalInstanceID=185
 			},
@@ -482,7 +482,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(255),
-				position=CreateVector2D(0.65000000000000, 0.50000000000000),
+				position=CreateVector2D(0.650000, 0.500000),
 				description="Dungeon",
 				journalInstanceID=255
 			},
@@ -490,7 +490,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(750),
-				position=CreateVector2D(0.66000000000000, 0.47500000000000),
+				position=CreateVector2D(0.660000, 0.475000),
 				description=RAID,
 				journalInstanceID=750
 			},
@@ -498,7 +498,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(279),
-				position=CreateVector2D(0.67000000000000, 0.50000000000000),
+				position=CreateVector2D(0.670000, 0.500000),
 				description="Dungeon",
 				journalInstanceID=279
 			},
@@ -506,19 +506,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(187),
-				position=CreateVector2D(0.68000000000000, 0.47500000000000),
+				position=CreateVector2D(0.680000, 0.475000),
 				description=RAID,
 				journalInstanceID=187
 			}
 		};
 	end
-	if ... == 75 then
+	if uiMapID == 75 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(186),
-				position=CreateVector2D(0.68437700339937, 0.29433931978318),
+				position=CreateVector2D(0.684377, 0.294339),
 				description="Dungeon",
 				journalInstanceID=186
 			},
@@ -526,7 +526,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(187),
-				position=CreateVector2D(0.60850026913587, 0.21059735050898),
+				position=CreateVector2D(0.608500, 0.210597),
 				description=RAID,
 				journalInstanceID=187
 			},
@@ -534,7 +534,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(184),
-				position=CreateVector2D(0.57148721382627, 0.25917693892362),
+				position=CreateVector2D(0.571487, 0.259176),
 				description="Dungeon",
 				journalInstanceID=184
 			},
@@ -542,7 +542,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(750),
-				position=CreateVector2D(0.39601866864706, 0.16840932012155),
+				position=CreateVector2D(0.396018, 0.168409),
 				description=RAID,
 				journalInstanceID=750
 			},
@@ -550,7 +550,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(251),
-				position=CreateVector2D(0.26411147771797, 0.32710275794956),
+				position=CreateVector2D(0.264111, 0.327102),
 				description="Dungeon",
 				journalInstanceID=251
 			},
@@ -558,7 +558,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(185),
-				position=CreateVector2D(0.22223711905039, 0.63678024669642),
+				position=CreateVector2D(0.222237, 0.636780),
 				description="Dungeon",
 				journalInstanceID=185
 			},
@@ -566,7 +566,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(255),
-				position=CreateVector2D(0.34391738790111, 0.84963443575313),
+				position=CreateVector2D(0.343917, 0.849634),
 				description="Dungeon",
 				journalInstanceID=255
 			},
@@ -574,19 +574,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(279),
-				position=CreateVector2D(0.60347887204117, 0.82696395309222),
+				position=CreateVector2D(0.603478, 0.826963),
 				description="Dungeon",
 				journalInstanceID=279
 			}
 		};
 	end
-	if ... == 81 then
+	if uiMapID == 81 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(743),
-				position=CreateVector2D(0.3570065684712, 0.83112791689871),
+				position=CreateVector2D(0.357006, 0.831127),
 				description=RAID,
 				journalInstanceID=743
 			},
@@ -594,67 +594,67 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(744),
-				position=CreateVector2D(0.23296166407718, 0.86258900391506),
+				position=CreateVector2D(0.232961, 0.862589),
 				description=RAID,
 				journalInstanceID=744
 			}
 		};
 	end
-	if ... == 84 then
+	if uiMapID == 84 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(238),
-				position=CreateVector2D(0.51058831950244, 0.67601552955998),
+				position=CreateVector2D(0.510588, 0.676015),
 				description="Dungeon",
 				journalInstanceID=238
 			}
 		};
 	end
-	if ... == 85 then
+	if uiMapID == 85 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(226),
-				position=CreateVector2D(0.548310900812, 0.51167325435908),
+				position=CreateVector2D(0.548310, 0.511673),
 				description="Dungeon",
 				journalInstanceID=226
 			}
 		};
 	end
-	if ... == 86 then
+	if uiMapID == 86 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(226),
-				position=CreateVector2D(0.6949364418398, 0.49235293680045),
+				position=CreateVector2D(0.694936, 0.492352),
 				description="Dungeon",
 				journalInstanceID=226
 			}
 		};
 	end
-	if ... == 95 then
+	if uiMapID == 95 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(77),
-				position=CreateVector2D(0.82046505019704, 0.64146551616184),
+				position=CreateVector2D(0.820465, 0.641465),
 				description="Dungeon",
 				journalInstanceID=77
 			}
 		};
 	end
-	if ... == 100 then
+	if uiMapID == 100 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(256),
-				position=CreateVector2D(0.4600932598114, 0.51797211170197),
+				position=CreateVector2D(0.460093, 0.517972),
 				description="Dungeon",
 				journalInstanceID=256
 			},
@@ -662,7 +662,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(259),
-				position=CreateVector2D(0.47665452957153, 0.51990759372711),
+				position=CreateVector2D(0.476654, 0.519907),
 				description="Dungeon",
 				journalInstanceID=259
 			},
@@ -670,7 +670,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(248),
-				position=CreateVector2D(0.47670072317123, 0.53568589687347),
+				position=CreateVector2D(0.476700, 0.535685),
 				description="Dungeon",
 				journalInstanceID=248
 			},
@@ -678,19 +678,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(747),
-				position=CreateVector2D(0.46688175201416, 0.52862930297852),
+				position=CreateVector2D(0.466881, 0.528629),
 				description=RAID,
 				journalInstanceID=747
 			}
 		};
 	end
-	if ... == 102 then
+	if uiMapID == 102 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(748),
-				position=CreateVector2D(0.50320000000000, 0.38950000000000),
+				position=CreateVector2D(0.503200, 0.389500),
 				description=RAID,
 				journalInstanceID=748
 			},
@@ -698,7 +698,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(260),
-				position=CreateVector2D(0.50320000000000, 0.43350000000000),
+				position=CreateVector2D(0.503200, 0.433500),
 				description="Dungeon",
 				journalInstanceID=260
 			},
@@ -706,7 +706,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(261),
-				position=CreateVector2D(0.48690000000000, 0.41150000000000),
+				position=CreateVector2D(0.486900, 0.411500),
 				description="Dungeon",
 				journalInstanceID=261
 			},
@@ -714,43 +714,43 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(262),
-				position=CreateVector2D(0.51950000000000, 0.41150000000000),
+				position=CreateVector2D(0.519500, 0.411500),
 				description="Dungeon",
 				journalInstanceID=262
 			}
 		};
 	end
-	if ... == 104 then
+	if uiMapID == 104 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(751),
-				position=CreateVector2D(0.70828441541559, 0.4628270272085),
+				position=CreateVector2D(0.708284, 0.462827),
 				description=RAID,
 				journalInstanceID=751
 			}
 		};
 	end
-	if ... == 105 then
+	if uiMapID == 105 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(746),
-				position=CreateVector2D(0.68485574899618, 0.23833780552795),
+				position=CreateVector2D(0.684855, 0.238337),
 				description=RAID,
 				journalInstanceID=746
 			}
 		};
 	end
-	if ... == 108 then
+	if uiMapID == 108 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(250),
-				position=CreateVector2D(0.39600000000000, 0.60600000000000),
+				position=CreateVector2D(0.396000, 0.606000),
 				description="Dungeon",
 				journalInstanceID=250
 			},
@@ -758,7 +758,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(247),
-				position=CreateVector2D(0.36290000000000, 0.65510000000000),
+				position=CreateVector2D(0.362900, 0.655100),
 				description="Dungeon",
 				journalInstanceID=247
 			},
@@ -766,7 +766,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(252),
-				position=CreateVector2D(0.42910000000000, 0.65510000000000),
+				position=CreateVector2D(0.429100, 0.655100),
 				description="Dungeon",
 				journalInstanceID=252
 			},
@@ -774,19 +774,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(253),
-				position=CreateVector2D(0.39600000000000, 0.70420000000000),
+				position=CreateVector2D(0.396000, 0.704200),
 				description="Dungeon",
 				journalInstanceID=253
 			}
 		};
 	end
-	if ... == 109 then
+	if uiMapID == 109 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(257),
-				position=CreateVector2D(0.71710824966431, 0.55042171478271),
+				position=CreateVector2D(0.717108, 0.550421),
 				description="Dungeon",
 				journalInstanceID=257
 			},
@@ -794,7 +794,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(254),
-				position=CreateVector2D(0.74399584531784, 0.57730054855347),
+				position=CreateVector2D(0.743995, 0.577300),
 				description="Dungeon",
 				journalInstanceID=254
 			},
@@ -802,7 +802,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(749),
-				position=CreateVector2D(0.73740553855896, 0.63740783929825),
+				position=CreateVector2D(0.737405, 0.637407),
 				description=RAID,
 				journalInstanceID=749
 			},
@@ -810,19 +810,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(258),
-				position=CreateVector2D(0.70575022697449, 0.69708216190338),
+				position=CreateVector2D(0.705750, 0.697082),
 				description="Dungeon",
 				journalInstanceID=258
 			}
 		};
 	end
-	if ... == 114 then
+	if uiMapID == 114 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(281),
-				position=CreateVector2D(0.27460000000000, 0.30500000000000),
+				position=CreateVector2D(0.274600, 0.305000),
 				description="Dungeon",
 				journalInstanceID=281
 			},
@@ -830,7 +830,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(282),
-				position=CreateVector2D(0.27460000000000, 0.28500000000000),
+				position=CreateVector2D(0.274600, 0.285000),
 				description="Dungeon",
 				journalInstanceID=282
 			},
@@ -838,19 +838,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(756),
-				position=CreateVector2D(0.27460000000000, 0.26500000000000),
+				position=CreateVector2D(0.274600, 0.265000),
 				description=RAID,
 				journalInstanceID=756
 			}
 		};
 	end
-	if ... == 115 then
+	if uiMapID == 115 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(754),
-				position=CreateVector2D(0.87265301150059, 0.50829437476702),
+				position=CreateVector2D(0.872653, 0.508294),
 				description=RAID,
 				journalInstanceID=754
 			},
@@ -858,7 +858,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(755),
-				position=CreateVector2D(0.60019278526306, 0.57017028331757),
+				position=CreateVector2D(0.600192, 0.570170),
 				description=RAID,
 				journalInstanceID=755
 			},
@@ -866,7 +866,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(761),
-				position=CreateVector2D(0.61326992511749, 0.52586007118225),
+				position=CreateVector2D(0.613269, 0.525860),
 				description=RAID,
 				journalInstanceID=761
 			},
@@ -874,7 +874,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(272),
-				position=CreateVector2D(0.25900000000000, 0.50750000000000),
+				position=CreateVector2D(0.259000, 0.507500),
 				description="Dungeon",
 				journalInstanceID=272
 			},
@@ -882,19 +882,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(271),
-				position=CreateVector2D(0.27600000000000, 0.50750000000000),
+				position=CreateVector2D(0.276000, 0.507500),
 				description="Dungeon",
 				journalInstanceID=271
 			}
 		};
 	end
-	if ... == 117 then
+	if uiMapID == 117 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(286),
-				position=CreateVector2D(0.57226878404617, 0.46499878168106),
+				position=CreateVector2D(0.572268, 0.464998),
 				description="Dungeon",
 				journalInstanceID=286
 			},
@@ -902,19 +902,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(285),
-				position=CreateVector2D(0.57985085248947, 0.49977159500122),
+				position=CreateVector2D(0.579850, 0.499771),
 				description="Dungeon",
 				journalInstanceID=285
 			}
 		};
 	end
-	if ... == 118 then
+	if uiMapID == 118 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(280),
-				position=CreateVector2D(0.52080000000000, 0.88500000000000),
+				position=CreateVector2D(0.520800, 0.885000),
 				description="Dungeon",
 				journalInstanceID=280
 			},
@@ -922,7 +922,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(276),
-				position=CreateVector2D(0.54080000000000, 0.88500000000000),
+				position=CreateVector2D(0.540800, 0.885000),
 				description="Dungeon",
 				journalInstanceID=276
 			},
@@ -930,7 +930,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(278),
-				position=CreateVector2D(0.56080000000000, 0.88500000000000),
+				position=CreateVector2D(0.560800, 0.885000),
 				description="Dungeon",
 				journalInstanceID=278
 			},
@@ -938,7 +938,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(758),
-				position=CreateVector2D(0.53283143043518, 0.8540273308754),
+				position=CreateVector2D(0.532831, 0.854027),
 				description=RAID,
 				journalInstanceID=758
 			},
@@ -946,7 +946,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(757),
-				position=CreateVector2D(0.75180339813232, 0.21803486347198),
+				position=CreateVector2D(0.751803, 0.218034),
 				description=RAID,
 				journalInstanceID=757
 			},
@@ -954,19 +954,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(284),
-				position=CreateVector2D(0.74177992343903, 0.20336812734604),
+				position=CreateVector2D(0.741779, 0.203368),
 				description="Dungeon",
 				journalInstanceID=284
 			}
 		};
 	end
-	if ... == 120 then
+	if uiMapID == 120 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(759),
-				position=CreateVector2D(0.41569566726685, 0.17804032564163),
+				position=CreateVector2D(0.415695, 0.178040),
 				description=RAID,
 				journalInstanceID=759
 			},
@@ -974,7 +974,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(277),
-				position=CreateVector2D(0.3945004940033, 0.26938551664352),
+				position=CreateVector2D(0.394500, 0.269385),
 				description="Dungeon",
 				journalInstanceID=277
 			},
@@ -982,19 +982,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(275),
-				position=CreateVector2D(0.45539504289627, 0.21130073070526),
+				position=CreateVector2D(0.455395, 0.211300),
 				description="Dungeon",
 				journalInstanceID=275
 			}
 		};
 	end
-	if ... == 121 then
+	if uiMapID == 121 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(274),
-				position=CreateVector2D(0.78548913051486, 0.24894393441341),
+				position=CreateVector2D(0.785489, 0.248943),
 				description="Dungeon",
 				journalInstanceID=274
 			},
@@ -1002,19 +1002,19 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(273),
-				position=CreateVector2D(0.28232521476081, 0.86906630288753),
+				position=CreateVector2D(0.282325, 0.869066),
 				description="Dungeon",
 				journalInstanceID=273
 			}
 		};
 	end
-	if ... == 122 then
+	if uiMapID == 122 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(752),
-				position=CreateVector2D(0.44333127966925, 0.45539915195193),
+				position=CreateVector2D(0.443331, 0.455399),
 				description=RAID,
 				journalInstanceID=752
 			},
@@ -1022,91 +1022,91 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(249),
-				position=CreateVector2D(0.60896463731892, 0.30873498878968),
+				position=CreateVector2D(0.608964, 0.308734),
 				description="Dungeon",
 				journalInstanceID=249
 			}
 		};
 	end
-	if ... == 123 then
+	if uiMapID == 123 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(753),
-				position=CreateVector2D(0.49979300845073, 0.12908295279403),
+				position=CreateVector2D(0.499793, 0.129082),
 				description=RAID,
 				journalInstanceID=753
 			}
 		};
 	end
-	if ... == 125 then
+	if uiMapID == 125 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(283),
-				position=CreateVector2D(0.66766894072611, 0.68052801105501),
+				position=CreateVector2D(0.667668, 0.680528),
 				description="Dungeon",
 				journalInstanceID=283
 			}
 		};
 	end
-	if ... == 198 then
+	if uiMapID == 198 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(78),
-				position=CreateVector2D(0.47382658720016, 0.78044635057449),
+				position=CreateVector2D(0.473826, 0.780446),
 				description=RAID,
 				journalInstanceID=78
 			}
 		};
 	end
-	if ... == 199 then
+	if uiMapID == 199 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(234),
-				position=CreateVector2D(0.40725141150291, 0.94355504748137),
+				position=CreateVector2D(0.407251, 0.943555),
 				description="Dungeon",
 				journalInstanceID=234
 			}
 		};
 	end
-	if ... == 204 then
+	if uiMapID == 204 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(65),
-				position=CreateVector2D(0.70541127794581, 0.29321605704137),
+				position=CreateVector2D(0.705411, 0.293216),
 				description="Dungeon",
 				journalInstanceID=65
 			}
 		};
 	end
-	if ... == 207 then
+	if uiMapID == 207 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(67),
-				position=CreateVector2D(0.47433298826218, 0.52046716213226),
+				position=CreateVector2D(0.474332, 0.520467),
 				description="Dungeon",
 				journalInstanceID=67
 			}
 		};
 	end
-	if ... == 241 then
+	if uiMapID == 241 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(71),
-				position=CreateVector2D(0.19115298825293, 0.53800640906077),
+				position=CreateVector2D(0.191152, 0.538006),
 				description="Dungeon",
 				journalInstanceID=71
 			},
@@ -1114,31 +1114,31 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(72),
-				position=CreateVector2D(0.3390908272408, 0.77997206385676),
+				position=CreateVector2D(0.339090, 0.779972),
 				description=RAID,
 				journalInstanceID=72
 			}
 		};
 	end
-	if ... == 244 then
+	if uiMapID == 244 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(75),
-				position=CreateVector2D(0.46643340587616, 0.47907876968384),
+				position=CreateVector2D(0.466433, 0.479078),
 				description=RAID,
 				journalInstanceID=75
 			}
 		};
 	end
-	if ... == 249 then
+	if uiMapID == 249 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(70),
-				position=CreateVector2D(0.69924150664421, 0.5211898967766),
+				position=CreateVector2D(0.699241, 0.521189),
 				description="Dungeon",
 				journalInstanceID=70
 			},
@@ -1146,7 +1146,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(69),
-				position=CreateVector2D(0.60558475890838, 0.64560383524057),
+				position=CreateVector2D(0.605584, 0.645603),
 				description="Dungeon",
 				journalInstanceID=69
 			},
@@ -1154,7 +1154,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(68),
-				position=CreateVector2D(0.76367162882117, 0.84036328692681),
+				position=CreateVector2D(0.763671, 0.840363),
 				description="Dungeon",
 				journalInstanceID=68
 			},
@@ -1162,7 +1162,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(74),
-				position=CreateVector2D(0.38096515858781, 0.80641407876858),
+				position=CreateVector2D(0.380965, 0.806414),
 				description=RAID,
 				journalInstanceID=74
 			}
@@ -1170,13 +1170,13 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 
 		};
 	end
-	if ... == 327 then
+	if uiMapID == 327 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(743),
-				position=CreateVector2D(0.58858891601546, 0.1429628506488),
+				position=CreateVector2D(0.588588, 0.142962),
 				description=RAID,
 				journalInstanceID=743
 			},
@@ -1184,43 +1184,43 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(744),
-				position=CreateVector2D(0.46706279148332, 0.074951407866902),
+				position=CreateVector2D(0.467062, 0.074951),
 				description=RAID,
 				journalInstanceID=744
 			}
 		};
 	end
-	if ... == 371 then
+	if uiMapID == 371 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(313),
-				position=CreateVector2D(0.5605753660202, 0.57810485363007),
+				position=CreateVector2D(0.560575, 0.578104),
 				description="Dungeon",
 				journalInstanceID=313
 			}
 		};
 	end
-	if ... == 376 then
+	if uiMapID == 376 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(302),
-				position=CreateVector2D(0.3607405424118, 0.6916538476944),
+				position=CreateVector2D(0.360740, 0.691653),
 				description="Dungeon",
 				journalInstanceID=302
 			}
 		};
 	end
-	if ... == 379 then
+	if uiMapID == 379 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(312),
-				position=CreateVector2D(0.36752325296402, 0.47573220729828),
+				position=CreateVector2D(0.367523, 0.475732),
 				description="Dungeon",
 				journalInstanceID=312
 			},
@@ -1228,31 +1228,31 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(317),
-				position=CreateVector2D(0.59540891647339, 0.39257943630219),
+				position=CreateVector2D(0.595408, 0.392579),
 				description=RAID,
 				journalInstanceID=317
 			}
 		};
 	end
-	if ... == 388 then
+	if uiMapID == 388 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(324),
-				position=CreateVector2D(0.34678030014038, 0.8148757815361),
+				position=CreateVector2D(0.346780, 0.814875),
 				description="Dungeon",
 				journalInstanceID=324
 			}
 		};
 	end
-	if ... == 390 then
+	if uiMapID == 390 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(321),
-				position=CreateVector2D(0.80847364664078, 0.32625895738602),
+				position=CreateVector2D(0.808473, 0.326258),
 				description="Dungeon",
 				journalInstanceID=321
 			},
@@ -1260,7 +1260,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(369),
-				position=CreateVector2D(0.72689116001129, 0.43903684616089),
+				position=CreateVector2D(0.726891, 0.439036),
 				description=RAID,
 				journalInstanceID=369
 			},
@@ -1268,127 +1268,127 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(303),
-				position=CreateVector2D(0.15897762775421, 0.73890686035156),
+				position=CreateVector2D(0.158977, 0.738906),
 				description="Dungeon",
 				journalInstanceID=303
 			}
 		};
 	end
-	if ... == 422 then
+	if uiMapID == 422 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(330),
-				position=CreateVector2D(0.38813406229019, 0.35028910636902),
+				position=CreateVector2D(0.388134, 0.350289),
 				description=RAID,
 				journalInstanceID=330
 			}
 		};
 	end
-	if ... == 433 then
+	if uiMapID == 433 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(320),
-				position=CreateVector2D(0.48270708322525, 0.61233305931091),
+				position=CreateVector2D(0.482707, 0.612333),
 				description=RAID,
 				journalInstanceID=320
 			}
 		};
 	end
-	if ... == 469 then
+	if uiMapID == 469 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(231),
-				position=CreateVector2D(0.32833884152112, 0.36335970717937),
+				position=CreateVector2D(0.328338, 0.363359),
 				description="Dungeon",
 				journalInstanceID=231
 			}
 		};
 	end
-	if ... == 504 then
+	if uiMapID == 504 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(362),
-				position=CreateVector2D(0.63315936695944, 0.32749138768097),
+				position=CreateVector2D(0.633159, 0.327491),
 				description=RAID,
 				journalInstanceID=362
 			}
 		};
 	end
-	if ... == 525 then
+	if uiMapID == 525 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(385),
-				position=CreateVector2D(0.49821442365646, 0.24732393026352),
+				position=CreateVector2D(0.498214, 0.247323),
 				description="Dungeon",
 				journalInstanceID=385
 			}
 		};
 	end
-	if ... == 534 then
+	if uiMapID == 534 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(669),
-				position=CreateVector2D(0.46019268035889, 0.53509867191315),
+				position=CreateVector2D(0.460192, 0.535098),
 				description=RAID,
 				journalInstanceID=669
 			}
 		};
 	end
-	if ... == 535 then
+	if uiMapID == 535 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(547),
-				position=CreateVector2D(0.462746322155, 0.73942840099335),
+				position=CreateVector2D(0.462746, 0.739428),
 				description="Dungeon",
 				journalInstanceID=547
 			}
 		};
 	end
-	if ... == 539 then
+	if uiMapID == 539 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(537),
-				position=CreateVector2D(0.31921875476837, 0.42529255151749),
+				position=CreateVector2D(0.319218, 0.425292),
 				description="Dungeon",
 				journalInstanceID=537
 			}
 		};
 	end
-	if ... == 542 then
+	if uiMapID == 542 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(476),
-				position=CreateVector2D(0.3557990193367, 0.33588010072708),
+				position=CreateVector2D(0.355799, 0.335880),
 				description="Dungeon",
 				journalInstanceID=476
 			}
 		};
 	end
-	if ... == 543 then
+	if uiMapID == 543 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(558),
-				position=CreateVector2D(0.45393449068069, 0.13594305515289),
+				position=CreateVector2D(0.453934, 0.135943),
 				description="Dungeon",
 				journalInstanceID=558
 			},
@@ -1396,7 +1396,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(536),
-				position=CreateVector2D(0.55184257030487, 0.31860655546188),
+				position=CreateVector2D(0.551842, 0.318606),
 				description="Dungeon",
 				journalInstanceID=536
 			},
@@ -1404,7 +1404,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Dungeon",
 				name=GetDungeonName(556),
-				position=CreateVector2D(0.59573304653168, 0.45588111877441),
+				position=CreateVector2D(0.595733, 0.455881),
 				description="Dungeon",
 				journalInstanceID=556
 			},
@@ -1412,27 +1412,27 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(...)
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(457),
-				position=CreateVector2D(0.5134608745575, 0.28495985269547),
+				position=CreateVector2D(0.513460, 0.284959),
 				description=RAID,
 				journalInstanceID=457
 			}
 		};
 	end
-	if ... == 550 then
+	if uiMapID == 550 then
 		return {
 			{
 				areaPoiID="",
 				atlasName="Raid",
 				name=GetDungeonName(477),
-				position=CreateVector2D(0.32946312427521, 0.383893430233),
+				position=CreateVector2D(0.329463, 0.383893),
 				description=RAID,
 				journalInstanceID=477
 			}
 		};
 	end
-	return C_EncounterJournal.GetDungeonEntrancesForMapOriginal(...);
+	return C_EncounterJournal.GetDungeonEntrancesForMapOriginal(uiMapID);
 end
-function GetDungeonName(...)
-	local name = EJ_GetInstanceInfo(...)
+function GetDungeonName(JournalInstance)
+	local name = EJ_GetInstanceInfo(journalinstance)
 	return name;
 end
