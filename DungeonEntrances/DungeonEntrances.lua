@@ -424,18 +424,6 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(uiMapID)
 			}
 		};
 	end
-	if uiMapID == 70 then
-		return {
-			{
-				areaPoiID="",
-				atlasName="Raid",
-				name=GetDungeonName(760),
-				position=CreateVector2D(0.525897, 0.768028),
-				description=RAID,
-				journalInstanceID=760
-			}
-		};
-	end
 	if uiMapID == 71 then
 		return {
 			{
@@ -580,26 +568,6 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(uiMapID)
 			}
 		};
 	end
-	if uiMapID == 81 then
-		return {
-			{
-				areaPoiID="",
-				atlasName="Raid",
-				name=GetDungeonName(743),
-				position=CreateVector2D(0.357006, 0.831127),
-				description=RAID,
-				journalInstanceID=743
-			},
-			{
-				areaPoiID="",
-				atlasName="Raid",
-				name=GetDungeonName(744),
-				position=CreateVector2D(0.232961, 0.862589),
-				description=RAID,
-				journalInstanceID=744
-			}
-		};
-	end
 	if uiMapID == 84 then
 		return {
 			{
@@ -717,18 +685,6 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(uiMapID)
 				position=CreateVector2D(0.519500, 0.411500),
 				description="Dungeon",
 				journalInstanceID=262
-			}
-		};
-	end
-	if uiMapID == 104 then
-		return {
-			{
-				areaPoiID="",
-				atlasName="Raid",
-				name=GetDungeonName(751),
-				position=CreateVector2D(0.708284, 0.462827),
-				description=RAID,
-				journalInstanceID=751
 			}
 		};
 	end
@@ -1052,18 +1008,6 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(uiMapID)
 			}
 		};
 	end
-	if uiMapID == 198 then
-		return {
-			{
-				areaPoiID="",
-				atlasName="Raid",
-				name=GetDungeonName(78),
-				position=CreateVector2D(0.473826, 0.780446),
-				description=RAID,
-				journalInstanceID=78
-			}
-		};
-	end
 	if uiMapID == 199 then
 		return {
 			{
@@ -1120,18 +1064,6 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(uiMapID)
 			}
 		};
 	end
-	if uiMapID == 244 then
-		return {
-			{
-				areaPoiID="",
-				atlasName="Raid",
-				name=GetDungeonName(75),
-				position=CreateVector2D(0.466433, 0.479078),
-				description=RAID,
-				journalInstanceID=75
-			}
-		};
-	end
 	if uiMapID == 249 then
 		return {
 			{
@@ -1168,26 +1100,6 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(uiMapID)
 			}
 
 
-		};
-	end
-	if uiMapID == 327 then
-		return {
-			{
-				areaPoiID="",
-				atlasName="Raid",
-				name=GetDungeonName(743),
-				position=CreateVector2D(0.588588, 0.142962),
-				description=RAID,
-				journalInstanceID=743
-			},
-			{
-				areaPoiID="",
-				atlasName="Raid",
-				name=GetDungeonName(744),
-				position=CreateVector2D(0.467062, 0.074951),
-				description=RAID,
-				journalInstanceID=744
-			}
 		};
 	end
 	if uiMapID == 371 then
@@ -1432,7 +1344,7 @@ C_EncounterJournal.GetDungeonEntrancesForMap = function(uiMapID)
 	end
 	return C_EncounterJournal.GetDungeonEntrancesForMapOriginal(uiMapID);
 end
-function GetDungeonName(JournalInstance)
-	local name = EJ_GetInstanceInfo(journalinstance)
+function GetDungeonName(...)
+	local name = EJ_GetInstanceInfo(...)
 	return name;
 end
